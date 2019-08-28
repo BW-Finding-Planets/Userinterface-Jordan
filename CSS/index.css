@@ -194,14 +194,13 @@ nav div {
 }
 nav .nasa {
   width: 25%;
-  border: black solid 1px;
+  /* border: black solid 1px; */
   display: flex;
 }
 nav .anchor {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  border: blue solid 1px;
 }
 footer {
   text-align: center;
@@ -271,13 +270,11 @@ body .btn button:hover {
 body .videosec {
   display: flex;
   width: 100%;
-  border: #FF7F50 solid 1px;
 }
 body .videosec .videos {
   display: flex;
   justify-content: center;
   width: 50%;
-  border: blue solid 1px;
   flex-wrap: wrap;
 }
 body .Topsec {
@@ -290,7 +287,7 @@ body .Topsec h1 {
 }
 body .Topsec div {
   width: 45%;
-  border: black solid 1px;
+  /* border: black solid 1px; */
 }
 body .Tothose {
   font-size: 2.5rem;
@@ -298,7 +295,7 @@ body .Tothose {
   margin: 5% 0;
 }
 body .Midsec {
-  border: black solid 1px;
+  /* border: black solid 1px; */
   width: 100%;
 }
 body .Midsec p {
@@ -312,7 +309,7 @@ body .Midsec div {
 }
 body .Bottomsec {
   width: 100%;
-  border: solid black 1px;
+  /* border: solid black 1px; */
   display: flex;
 }
 body .Bottomsec h1 {
@@ -320,7 +317,7 @@ body .Bottomsec h1 {
 }
 body .Bottomsec .find_us {
   width: 30%;
-  border: blue solid 1px;
+  /* border: blue solid 1px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,7 +358,6 @@ body .Bottomsec .Social {
   width: 70%;
   display: flex;
   justify-content: space-around;
-  border: orange solid 1px;
 }
 @media (max-width:500px) {
   body .nasa {
@@ -389,14 +385,14 @@ body .Bottomsec .Social {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: white solid 1px;
+    /* border: white solid 1px; */
   }
   body .Topsec div {
-    border: white solid 1px;
+    /* border: white solid 1px; */
     width: 80%;
   }
   body .Midsec {
-    border: white solid 1px;
+    /* border: white solid 1px; */
   }
   body .Midsec .Edwin_hubble {
     display: flex;
@@ -455,7 +451,6 @@ body .Bottomsec .Social {
   justify-content: center;
   margin: 5% 0;
   width: 100%;
-  border: pink solid 1px;
 }
 .about_us_container .team .fa {
   margin-left: 40%;
@@ -465,11 +460,9 @@ body .Bottomsec .Social {
   display: flex;
   justify-content: center;
   text-align: center;
-  border: yellow solid 1px;
 }
 .about_us_container .a {
   margin-left: 2%;
-  border: blue solid 1px;
 }
 .about_us_container .a p {
   text-align: center;
