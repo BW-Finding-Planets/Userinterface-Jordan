@@ -1,0 +1,477 @@
+.flex {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.spacebetween {
+  display: flex;
+  justify-content: space-around;
+}
+.spaceareound {
+  display: flex;
+  justify-content: space-around;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.columnreverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: white;
+}
+nav {
+  display: flex;
+  width: 100%;
+}
+nav a {
+  font-size: 2rem;
+  margin: 0 5%;
+  color: #FF7F50;
+  text-decoration: none;
+}
+nav div {
+  width: 75%;
+}
+nav .nasa {
+  width: 25%;
+  /* border: black solid 1px; */
+  display: flex;
+}
+nav .anchor {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+footer {
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+body .unipic {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .polling_message {
+  color: white;
+  float: left;
+  margin-right: 2%;
+  font-size: 1.8rem;
+}
+body .view_port {
+  background-color: black;
+  height: 25px;
+  width: 100%;
+  overflow: hidden;
+}
+body .cylon_eye {
+  background-color: green;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
+  color: white;
+  height: 100%;
+  width: 20%;
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+  animation: 4s linear 0s infinite alternate move_eye;
+}
+@-webkit-keyframes move_eye {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+@keyframes move_eye {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+body .btn {
+  display: flex;
+  justify-content: center;
+}
+body .btn button {
+  padding: 25px;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  background-color: #696969;
+  margin: 5% 0;
+}
+body .btn button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+body .videosec {
+  display: flex;
+  width: 100%;
+}
+body .videosec .videos {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  flex-wrap: wrap;
+}
+body .Topsec {
+  display: flex;
+  justify-content: space-around;
+}
+body .Topsec h1 {
+  margin: 8% 0;
+  font-size: 2.5rem;
+}
+body .Topsec div {
+  width: 45%;
+  /* border: black solid 1px; */
+}
+body .Tothose {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 5% 0;
+}
+body .Midsec {
+  /* border: black solid 1px; */
+  width: 100%;
+}
+body .Midsec p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+body .Midsec div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+body .Bottomsec {
+  width: 100%;
+  /* border: solid black 1px; */
+  display: flex;
+}
+body .Bottomsec h1 {
+  font-size: 2.5rem;
+}
+body .Bottomsec .find_us {
+  width: 30%;
+  /* border: blue solid 1px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .Bottomsec .fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+body .Bottomsec .fa:hover {
+  opacity: 0.7;
+}
+body .Bottomsec .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+body .Bottomsec .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+body .Bottomsec .fa-instagram {
+  background: #125688;
+  color: white;
+}
+body .Bottomsec .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+body .Bottomsec .fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+body .Bottomsec .Social {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width:500px) {
+  body .nasa {
+    display: flex;
+    flex-direction: column;
+  }
+  body .nasa img {
+    width: 60px;
+    height: 60px;
+  }
+  body .view_port {
+    display: none;
+  }
+  body .videosec {
+    display: flex;
+    flex-direction: column;
+  }
+  body .videosec .mobilevid {
+    max-width: 100%;
+  }
+  body .videosec .videos {
+    width: 100%;
+  }
+  body .Topsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: white solid 1px; */
+  }
+  body .Topsec div {
+    /* border: white solid 1px; */
+    width: 80%;
+  }
+  body .Midsec {
+    /* border: white solid 1px; */
+  }
+  body .Midsec .Edwin_hubble {
+    display: flex;
+    flex-direction: column;
+  }
+  body .Midsec .Carl_sagan {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body .Midsec .Stephen_hawk {
+    display: flex;
+    flex-direction: column;
+  }
+  body .Midsec img {
+    margin-left: 10%;
+  }
+  body .Bottomsec .Social .fa {
+    padding: 1px;
+  }
+  body .Bottomsec .Social .find_us h1 {
+    font-size: 1rem;
+  }
+}
+.about_us_container {
+  width: 100%;
+}
+.about_us_container .fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30px;
+}
+.about_us_container .fa-github {
+  background: white;
+  color: black;
+}
+.about_us_container .fa:hover {
+  opacity: 0.7;
+}
+.about_us_container h1,
+.about_us_container h2,
+.about_us_container h3 {
+  color: white;
+  text-align: center;
+}
+.about_us_container h1 {
+  font-size: 5.5rem;
+  text-align: center;
+  margin: 10% 0;
+}
+.about_us_container .team {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+  width: 100%;
+}
+.about_us_container .team .fa {
+  margin-left: 40%;
+}
+.about_us_container .TL {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.about_us_container .a {
+  margin-left: 2%;
+}
+.about_us_container .a p {
+  text-align: center;
+}
+@media (max-width:500px) {
+  .about_us_container .b {
+    width: 120px;
+  }
+  .about_us_container .c {
+    margin-left: 13%;
+  }
+}
